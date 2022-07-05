@@ -121,7 +121,7 @@ export default {
                 return result
             }
             // 加载更多
-            if (host === 's' && hostParam === USERNAME) {
+            if (host === 's') {
                 u.host = 't.me'
                 const req = new Request(u, {
                     method: 'POST',
