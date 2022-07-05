@@ -5,7 +5,7 @@ export default {
         // 你需要反代的 Channel 的 username
         const USERNAME = 'chen_can_bb'
         // 访问这个 worker 的 URL，可以是初始的 .workers.dev 的域名。注意不是你想要嵌入到的网页的地址
-        const BASE_URL = '//chen-can-bb.urc.workers.dev'
+        const BASE_URL = '//bb.cyfan.eu.org'
         // 在这里你还可以注入一些 CSS 和需要的头部信息
         const icon = emb => '<link rel="icon" type="image/webp" href="https://cdn.lwqwq.com/pic/tgChannelAvatar.webp"/>' +
             '<base target="_blank" />' +
