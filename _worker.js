@@ -3,7 +3,7 @@
 export default {
     async fetch(request, env) {
         // 你需要反代的 Channel 的 username
-        const USERNAME = 'chen_can_bb'
+        const USERNAME = new URL(request.url).searchParams.get('n') || 'chen_can_bb'
         // 访问这个 worker 的 URL，可以是初始的 .workers.dev 的域名。注意不是你想要嵌入到的网页的地址
         const BASE_URL = '//bb.cyfan.eu.org'
         // 在这里你还可以注入一些 CSS 和需要的头部信息
